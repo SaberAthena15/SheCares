@@ -1,0 +1,44 @@
+/* Anonymous Feedback Styles */
+.anon-feedback {
+  background-color: #f8f9fa; /* Light background color for the section */
+  padding: 2rem 0; /* Padding for top and bottom */
+}
+
+.anon-feedback h1 {
+  color: #ffafcc; /* Match the color with the navbar */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+.anon-feedback p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.anon-feedback .form-control {
+  border-radius: 0.5rem; /* Rounded corners for inputs */
+}
+
+.anon-feedback .btn-primary {
+  background-color: #ffafcc; /* Match the color with the navbar */
+  border: none;
+  border-radius: 0.5rem; /* Rounded corners for the button */
+}
+
+.anon-feedback .btn-primary:hover {
+  background-color: #e689b3; /* Slightly darker shade on hover */
+}
+
+.footer {
+  background-color: #ffafcc; /* Match the color with the navbar */
+  color: #fff; /* White text for better contrast */
+  padding: 1rem 0; /* Padding for top and bottom */
+}
+
+.footer a {
+  color: #fff; /* White links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

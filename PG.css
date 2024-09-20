@@ -1,0 +1,48 @@
+/* PG Finder Styles */
+.pg-finder {
+  background-color: #f8f9fa; /* Light background color for the section */
+  padding: 2rem 0; /* Padding for top and bottom */
+}
+
+.pg-finder h1 {
+  color: #ffafcc; /* Match the color with the navbar */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+.pg-finder p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.pg-finder form {
+  max-width: 600px;
+  margin: 0 auto; /* Center the form */
+}
+
+.pg-finder .form-control {
+  border-radius: 0.5rem; /* Rounded corners for inputs */
+}
+
+.pg-finder .btn-primary {
+  background-color: #ffafcc; /* Match the color with the navbar */
+  border: none;
+}
+
+.pg-finder .btn-primary:hover {
+  background-color: #e689b3; /* Slightly darker shade on hover */
+}
+
+.footer {
+  background-color: #ffafcc; /* Match the color with the navbar */
+  color: #fff; /* White text for better contrast */
+  padding: 1rem 0; /* Padding for top and bottom */
+}
+
+.footer a {
+  color: #fff; /* White links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

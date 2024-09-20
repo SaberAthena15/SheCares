@@ -1,0 +1,138 @@
+.navbar {
+  background-color: #ffc8dd !important;
+}
+
+/* Optional: Change the navbar text color for better contrast */
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-item {
+  color: #333 !important; /* Darker text color for better readability */
+}
+
+/* Optional: Change the navbar toggler icon color */
+.navbar-toggler-icon {
+  filter: invert(1); /* Invert the icon color for better visibility */
+}
+
+/* Optional: Change hover effect for links */
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  color: #000 !important; /* Darker text color on hover */
+}
+
+.navbar-brand span {
+  font-size: 1.25rem; /* Adjust the font size */
+  font-weight: 700; /* Make the text bolder (700 is bold, 800 or 900 can be used for extra bold) */
+  color: #333; /* Customize text color */
+}
+
+#HomePageSignin {
+  background-color: #ffafcc !important;
+  border-color: #da627d !important; /* Ensure the border color matches the background */
+  color: white !important; /* Optional: Change text color for better readability */
+}
+
+/* Optional: Add a hover effect */
+#HomePageSignin:hover {
+  background-color: #f094aa !important; /* Slightly darker shade on hover */
+  border-color: #f094aa !important; /* Match border color on hover */
+}
+
+/* carausel */
+/* Custom CSS to restrict carousel image size */
+.carousel-item img {
+  width: 600px; /* Set the width to 800px */
+  height: 600px; /* Set the height to 500px */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.about-us {
+  background-color: #f8f9fa; /* Light background color */
+  border-top: 2px solid #ffafcc; /* Pink border on top */
+  padding: 2rem 1rem; /* Padding around the section */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about-us h2 {
+  font-weight: bold; /* Bold font for the heading */
+  color: #ffafcc; /* Pink color for the heading text */
+}
+
+.about-us p {
+  font-size: 1.1rem; /* Slightly larger text for better readability */
+  color: #333; /* Darker text color for better contrast */
+}
+
+/* About Us Section */
+.about-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.about-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+.features-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.feature-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 15px;
+}
+.feature-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.feature-item h4 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+.feature-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Carousel Images */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+/* Footer Styles */
+.footer {
+  background-color: #ffafcc; /* Same color as the navbar */
+  color: #fff; /* White text for better contrast */
+  padding: 1rem 0; /* Padding for top and bottom */
+}
+
+.footer a {
+  color: #fff; /* White links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

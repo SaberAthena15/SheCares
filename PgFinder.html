@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PG Finder - SheCares</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="PG.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #ffafcc"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="/Images/womens-day.png" width="36" alt="Logo" />
+          <span class="ms-2">SheCares</span>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarExample">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PG Finder Section -->
+    <section class="pg-finder">
+      <div class="container">
+        <h1 class="text-center">Paying Guest Finder</h1>
+        <p>
+          Welcome to the PG Finder feature of SheCares. We offer a range of
+          paying guest accommodations tailored to your needs. Use our
+          easy-to-navigate interface to find the perfect place that suits your
+          preferences and budget.
+        </p>
+
+        <form>
+          <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input
+              type="text"
+              class="form-control"
+              id="location"
+              placeholder="Enter city or area"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="priceRange" class="form-label">Price Range</label>
+            <input
+              type="text"
+              class="form-control"
+              id="priceRange"
+              placeholder="Enter price range"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="amenities" class="form-label">Amenities</label>
+            <input
+              type="text"
+              class="form-control"
+              id="amenities"
+              placeholder="Enter amenities you're looking for"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        <div class="search-results mt-4">
+          <h2>Search Results</h2>
+          <!-- Results will be displayed here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 text-center">
+      <div class="container">
+        <p class="mb-0">© 2024 SheCares. All rights reserved.</p>
+        <p>
+          <a href="#" class="text-light">Privacy Policy</a> |
+          <a href="#" class="text-light">Terms of Service</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

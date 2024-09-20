@@ -1,0 +1,91 @@
+/* Live Chat Styles */
+.live-chat {
+  background-color: #f1f1f1; /* Light background color for the chat section */
+  padding: 2rem 0; /* Padding for top and bottom */
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  background-color: #ffafcc; /* Match the color with the navbar */
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  text-align: center;
+}
+
+.chat-box {
+  padding: 1rem;
+  height: 500px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.message.received {
+  justify-content: flex-start;
+}
+
+.message.sent {
+  justify-content: flex-end;
+}
+
+.message-content {
+  max-width: 70%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #e1ffc7; /* Light green for received messages */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.message.sent .message-content {
+  background-color: #dcf8c6; /* Light green for sent messages */
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.chat-input input {
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 1px solid #ddd;
+  flex: 1;
+}
+
+.chat-input button {
+  border-radius: 0 0.5rem 0.5rem 0;
+  border: 1px solid #ddd;
+  background-color: #ffafcc; /* Match the color with the navbar */
+  color: #fff;
+}
+
+.chat-input button:hover {
+  background-color: #e689b3; /* Slightly darker shade on hover */
+}
+
+.footer {
+  background-color: #ffafcc; /* Match the color with the navbar */
+  color: #fff; /* White text for better contrast */
+  padding: 1rem 0; /* Padding for top and bottom */
+}
+
+.footer a {
+  color: #fff; /* White links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

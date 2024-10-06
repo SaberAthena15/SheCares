@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #promptInput {
+        height: 40px;
+        width: 600px;
+        font-size: 18px;
+      }
+      #result {
+        margin-top: 20px;
+        font-size: 16px;
+        white-space: pre-wrap; /* Keeps formatting of the text */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input id="promptInput" type="text" placeholder="Enter your Prompt" />
+      <br />
+      <br />
+      <button id="generateButton">Generate</button>
+      <div id="result"></div>
+      <!-- Container for displaying the result -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

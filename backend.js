@@ -5,7 +5,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai"); // Make sure to
 
 const app = express();
 const port = 3000; // You can choose any available port
-const genAI = new GoogleGenerativeAI("AIzaSyDPsw2l4gWxqsUsYIRE0ILG-te0sbtXM7o");
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
 app.use(cors());
